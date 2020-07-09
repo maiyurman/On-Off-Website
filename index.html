@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> On/Off-המדריך ללב השבור- דף הבית </title>
+    <meta name="description" content="דף הבית של אתר On/Off. המדריך ללב השבור." />
+    <meta name="keywords" content="On/Off,דף הבית,לב שבור" />
+    <meta name="author" content="On/Off - Mai Yurman, Amit-Ben-Basat, Liron Blum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script>
+        var accessibilityMode = true;
+        function big()
+        {
+            var body = document.getElementsByTagName('body')[0];
+            if (accessibilityMode == true)
+            {
+                body.style.zoom = "200%";
+                accessibilityMode = false;
+                document.getElementById("buttonAccessibility").value = "לחצו ל100%";
+            }
+            else {
+                body.style.zoom = "100%";
+                accessibilityMode = true;
+                document.getElementById("buttonAccessibility").value = "לחצו ל200%";
+            }
+        }
+    </script>
+
+    <link rel="icon" href="images/menu/on_off_icon.png" /> <!--favicon on/off-->
+
+
+</head>
+<body>
+    <div id="container">
+        <article>
+            <div role="main">
+                <header>
+                    <nav class="nav_header" aria-label="תפריט ראשי">
+                        <input type="button" onclick="big()" value="לחצו ל200%" id="buttonAccessibility" class="button200" />
+                        <ul>
+                            <li><a href="index.html" target="_self"><img src="images/menu/logo_on_off.png" class="logo_on_off" alt="logo" width="80" height="80" /></a></li>
+                            <li>
+                                <a href="index.html" target="_self"><span>חדרי הבית</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="index.html#index_healing_room" target="_self">Healing</a>
+                                        <ul>
+                                            <li><a href="rooms/healing_room/movies.html" target="_self">סרטים שיעשו קצת טוב על הלב</a></li>
+                                            <li><a href="#" class="notActive">שירים להרגשה טובה</a></li>
+                                            <li><a href="#" class="notActive">מאכלים שיעשו קצת טוב לנפש</a></li>
+                                            <li><a href="#" class="notActive">משפטי העצמה</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a>
+                                        <ul>
+                                            <li><a href="rooms/me_myself_I_room/new_routin.html" target="_self">השגרה החדשה שלך</a></li>
+                                            <li><a href="#" class="notActive">איך משתפרים לפעם הבאה</a></li>
+                                            <li><a href="#" class="notActive">יתרונות וחסרונות בעצמי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_unfollow_room" target="_self">UNFOLLOW</a>
+                                        <ul>
+                                            <li><a href="rooms/UNFOLLOW_room/digital_world.html" target="_self">פרידה בעידן הדיגיטלי</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/Social Networks_tips.html" target="_self">טיפוח הרשתות החברתיות שלי</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/emojipedia.html" target="_self">אמוג'יפדיה</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/EX-stuff.html" target="_self">מה לעשות עם החפצים של האקס/ית?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_the_day_after" target="_self">The Day After</a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">איך לא לשקוע במחשבות על הפרידה</a></li>
+                                            <li><a href="#" class="notActive">איך משחררים את הזיכרונות</a></li>
+                                            <li><a href="rooms/the_day_after_room/Advantages_and_Disadvantages.html" target="_self">יתרונות וחסרונות במערכת היחסים</a></li>
+                                            <li><a href="#" class="notActive">הפרידה מהמשפחה והחברים</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html" target="_self"><span>אודות</span></a></li>
+                            <li><a href="contactUs.html" target="_self"><span>צור קשר</span></a></li>
+                            <li><a href="#" class="notActive"><span>שאלות נפוצות</span></a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+               
+   
+                <section title="On/Off-המדריך ללב השבור- דף הבית">
+
+                    <div id="index_open">
+                        <h1>
+                            הגעתם למדריך ללב השבור
+                        </h1>
+                        <h2>
+                            אנחנו פה לאסוף את השברים
+                        </h2>
+                        <h3>
+                            גללו מטה, והצטרפו אלינו למסע אל תוך חדרי הלב
+                        </h3>
+
+                        <a href="#index_healing_room"><img src="images/index/arrow.gif" alt="חץ שבלחיצה עובר לחדרים" id="index_arrow" /></a>
+
+                        <a href="#index_me_myself_and_i_room" target="_self"><img src="images/index/cubes/dont_be_polisg.png" alt="המשפט: אל תהיי פולניה בלחיצה מוביל לחדר me myself&I" id="index_dont_be_polish" /></a>
+                        <a href="#index_unfollow_room" target="_self"><img src="images/index/cubes/checking_profile.png" alt="המשפט: בודקים בפרופיל של האקסית בפייסבוק? בלחיצה מוביל לחדר UNFOLLOW" id="index_checking_profile" /></a>
+                        <a href="#index_unfollow_room" target="_self"><img src="images/index/cubes/everithing_that_left.png" alt="המשפט: זה מה שנשאר. בלחיצה מוביל לחדר UNFOLLOW" id="index_everithing_that_left" /></a>
+                        <a href="#index_me_myself_and_i_room" target="_self"><img src="images/index/cubes/fake_it_until.png" alt="המשפט: fake it until you make it. בלחיצה מוביל לחדר me myself & I" id="index_fake_it_until" /></a>
+                        <a href="#index_unfollow_room" target="_self"><img src="images/index/cubes/fly_on_yorself.png" alt="המשפט:עופו על עצמכם תמציאו את עצמכם מחדש. בלחיצה מוביל לחדר UNFOLLOW." id="index_fly_on_yorself" /></a>
+                        <a href="#index_unfollow_room" target="_self"><img src="images/index/cubes/how_to_dont_send_masseges.png" alt="המשפט: איך מתנזרים משליחת הודעות. מוביל לחדר UNFOLLOW" id="index_how_to_dont_send_masseges" /></a>
+                        <a href="#index_me_myself_and_i_room" target="_self"><img src="images/index/cubes/leave_the_ice_cream.png" alt="המשפט: תניחו את הגלידה. בלחיצה מוביל לחדר me myself & I" id="index_leave_the_ice_cream" /></a>
+                        <a href="#index_me_myself_and_i_room" target="_self"><img src="images/index/cubes/stop_eating_movies.png" alt="המשפט: די לאכול סרטים זה משמין. בלחיצה מוביל לחדר me myself & I" id="index_stop_eating_movies" /></a>
+                        <a href="#index_the_day_after" target="_self"><img src="images/index/cubes/what_you_do_when_you_meet_the_ex.png" alt="המשפט: מה עושים כשפוגשים את האקסית? מוביל לחדר the day after" id="index_what_you_do_when_you_meet_the_ex" /></a>
+
+                        <div id="index_blue_start"></div>
+                        <div id="index_pink_start"></div>
+                        <div id="index_yellow_start"></div>
+                        <div id="index_green_start"></div>
+                    </div>
+                </section>
+
+
+                <section title="healing_room" id="index_healing_room">
+                    <h2 class="black_room_title">
+                        HEALING ROOM
+                    </h2>
+                    <p class="black_room_text">
+                        זהו חדר ההחלמה, אנחנו נעשה בשבילכם את הבחירה של השירים הסרטים המשפטים והמאכלים שיעשו לכם קיצי בלב ואתם רק תשיגו ספה נוחה. כנסו לדלת הכחולה כדי להחלים.
+                    </p>
+                    <div>
+                        <img src="images/index/heat_parts/blue_heart.png" alt="" class="index_right_part_heart" />
+                    </div>
+
+                    <div id="index_double_blue_door">
+                        <nav class="index_inside_door_nav" aria-label="תפריט פנימי של דלת כחולה">
+                            <ul>
+                                <li><a href="rooms/healing_room/movies.html" target="_self"><span>סרטים שיעשו קצת טוב על הלב</span></a></li>
+                                <li><a href="#" class="notActive"><span>שירים להרגשה טובה</span></a></li>
+                                <li><a href="#" class="notActive"><span>מאכלים שיעשו קצת טוב לנפש</span></a></li>
+                                <li><a href="#" class="notActive"><span>משפטי העצמה</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </section>
+
+                <section title="me_myself_and_i_room" id="index_me_myself_and_i_room">
+                    <h2 class="white_room_title">
+                        ME, MYSELF & I ROOM
+                    </h2>
+                    <p class="white_room_text">
+                        אחרי כל הזמן הזה שדיברתם ב״אנחנו״
+                        אנחנו מזמינות אתכם להסתכל על עצמכם, ולאהוב את מה שאתם רואים.
+                        כנסו לדלת הצהובה בשביל לעוף על עצמכם!
+                    </p>
+                    <div>
+                        <img src="images/index/heat_parts/yellow_heart.png" alt="" class="index_left_part_heart" />
+                    </div>
+
+                    <div id="index_double_yellow_door">
+                        <nav class="index_inside_door_nav" aria-label="תפריט פנימי של דלת צהובה">
+                            <ul>
+                                <li><a href="rooms/me_myself_I_room/new_routin.html" target="_self"><span>השגרה החדשה שלך</span></a></li>
+                                <li><a href="#" class="notActive"><span>איך משתפרים לפעם הבאה</span></a></li>
+                                <li><a href="#" class="notActive"><span>יתרונות וחסרונות בעצמי</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </section>
+
+                <section title="unfollow_room" id="index_unfollow_room">
+                    <h2 class="black_room_title">
+                        UNFOLLOW ROOM
+                    </h2>
+                    <p class="black_room_text">
+                        זהו החדר שילמד אתכם איך להיפרד בעידן הדיגיטלי. לפני שאתם לוחצים על כפתור האנלייק תעשו לעצמכם טובה וכנסו לדלת הורודה...
+                    </p>
+                    <div>
+                        <img src="images/index/heat_parts/pink_heart.png" alt="" class="index_right_part_heart" />
+                    </div>
+
+                    <div id="index_double_pink_door">
+                        <nav class="index_inside_door_nav" aria-label="תפריט פנימי של דלת ורודה">
+                            <ul>
+                                <li><a href="rooms/UNFOLLOW_room/digital_world.html" target="_self"><span>פרידה בעידן הדיגיטלי</span></a></li>
+                                <li><a href="rooms/UNFOLLOW_room/Social Networks_tips.html" target="_self"><span>טיפוח הרשתות החברתיות שלי</span></a></li>
+                                <li><a href="rooms/UNFOLLOW_room/emojipedia.html" target="_self"><span>אמוג'יפדיה</span></a></li>  <!--לבדוק איך מכניסים את הפיבלוש מהאינימט-->
+                                <li><a href="rooms/UNFOLLOW_room/EX-stuff.html" target="_self"><span> מה לעשות עם <br /> החפצים של האקס/ית? </span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </section>
+
+                <section title="the_day_after" id="index_the_day_after">
+                    <h2 class="white_room_title">
+                        THE DAY AFTER ROOM
+                    </h2>
+                    <p class="white_room_text">
+                        אנחנו יודעות כמה היום שאחרי קשה. במיוחד בשביל זה סידרנו לכם חדר וי איי פי שילמד אתכם להסתכל קדימה בביטחון והשלמה.. אז למה אתם מחכים? כנסו לדלת הירוקה.
+                    </p>
+                    <div>
+                        <img src="images/index/heat_parts/green_heart.png" alt="" class="index_left_part_heart" />
+                    </div>
+
+                    <div id="index_double_green_door">
+                        <nav class="index_inside_door_nav" aria-label="תפריט פנימי של דלת ירוקה">
+                            <ul>
+                                <li><a href="#" class="notActive"><span>איך לא לשקוע במחשבות על הפרידה</span></a></li>
+                                <li><a href="#" class="notActive"><span>איך משחררים את הזיכרונות</span></a></li>
+                                <li><a href="rooms/the_day_after_room/Advantages_and_Disadvantages.html" target="_self"><span>יתרונות וחסרונות במערכת היחסים</span></a></li>
+                                <li><a href="#" class="notActive"><span>הפרידה מהמשפחה והחברים</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </section>
+
+                <section title="קלוז'ר של האתר" id="index_end">
+                    <h2>
+                        גם אם לא היה פה קלוז'ר, מקוות שגרמנו לכם לחייך...
+                    </h2>
+                    <div id="index_blue_end"></div>
+                    <div id="index_pink_end"></div>
+                    <div id="index_yellow_end"></div>
+                    <div id="index_green_end"></div>
+                </section>
+
+
+                <footer>
+                    <nav class="nav_footer" aria-label="תפריט תחתון">
+                        <ul class="heb_footer">
+                            <li><a href="index.html" target="_self">חדרי הבית</a></li>
+                            <li><a href="about.html" target="_self">אודות</a></li>
+                            <li><a href="#" target="_self" class="notActive">שאלות נפוצות</a></li>
+                        </ul>
+                        <ul class="heb_footer">
+                            <li><a href="siteMap.html" target="_self">מפת האתר</a></li>
+                            <li><a href="contactUs.html" target="_self">צור קשר</a></li>
+                            <li><a href="credits.html" target="_self">זכויות יוצרים</a></li>
+                        </ul>
+                        <ul class="english_footer">
+                            <li><a href="index.html#index_healing_room" target="_self">Healing</a></li>
+                            <li><a href="index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a></li>
+                            <li><a href="index.html#index_unfollow_room" target="_self">UNFOLLOW</a></li>
+                            <li><a href="index.html#index_the_day_after" target="_self">The Day After</a></li>
+                        </ul>
+                    </nav>
+                </footer>
+
+            </div>
+    </article>
+
+    </div>
+</body>
+</html>

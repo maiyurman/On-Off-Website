@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>On/Off- זכויות יוצרים </title>
+    <meta name="description" content="עמוד אשר מציג את כלל האתרים והמקורות בהם נעשה שימוש באתר" />
+    <meta name="keywords" content="אתרים,On/Off,זכויות יוצרים,לב שבור" />
+    <meta name="author" content="On/Off - Mai Yurman, Amit-Ben-Basat, Liron Blum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script>
+        var accessibilityMode = true;
+        function big() {
+            var body = document.getElementsByTagName('body')[0];
+            if (accessibilityMode == true) {
+                body.style.zoom = "200%";
+                accessibilityMode = false;
+                document.getElementById("buttonAccessibility").value = "לחצו ל100%";
+            }
+            else {
+                body.style.zoom = "100%";
+                accessibilityMode = true;
+                document.getElementById("buttonAccessibility").value = "לחצו ל200%";
+            }
+        }
+    </script>
+    <link rel="icon" href="images/menu/on_off_icon.png" />
+</head>
+<body>
+    <div id="container">
+        <article>
+            <div role="main">
+                <header>
+                    <nav class="nav_header" aria-label="תפריט ראשי">
+                        <input type="button" onclick="big()" value="לחצו ל200%" id="buttonAccessibility" class="button200" />
+                        <ul>
+                            <li><a href="index.html" target="_self"><img src="images/menu/logo_on_off.png" class="logo_on_off" alt="logo" width="80" height="80" /></a></li>
+                            <li>
+                                <a href="index.html" target="_self"><span>חדרי הבית</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="index.html#index_healing_room" target="_self">Healing</a>
+                                        <ul>
+                                            <li><a href="rooms/healing_room/movies.html" target="_self">סרטים שיעשו קצת טוב על הלב</a></li>
+                                            <li><a href="#" class="notActive">שירים להרגשה טובה</a></li>
+                                            <li><a href="#" class="notActive">מאכלים שיעשו קצת טוב לנפש</a></li>
+                                            <li><a href="#" class="notActive">משפטי העצמה</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a>
+                                        <ul>
+                                            <li><a href="rooms/me_myself_I_room/new_routin.html" target="_self">השגרה החדשה שלך</a></li>
+                                            <li><a href="#" class="notActive">איך משתפרים לפעם הבאה</a></li>
+                                            <li><a href="#" class="notActive">יתרונות וחסרונות בעצמי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_unfollow_room" target="_self">UNFOLLOW</a>
+                                        <ul>
+                                            <li><a href="rooms/UNFOLLOW_room/digital_world.html" target="_self">פרידה בעידן הדיגיטלי</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/Social Networks_tips.html" target="_self">טיפוח הרשתות החברתיות שלי</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/emojipedia.html" target="_self">אמוג'יפדיה</a></li>
+                                            <li><a href="rooms/UNFOLLOW_room/EX-stuff.html" target="_self">מה לעשות עם החפצים של האקס/ית?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#index_the_day_after" target="_self">The Day After</a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">איך לא לשקוע במחשבות על הפרידה</a></li>
+                                            <li><a href="#" class="notActive">איך משחררים את הזיכרונות</a></li>
+                                            <li><a href="rooms/the_day_after_room/Advantages_and_Disadvantages.html" target="_self">יתרונות וחסרונות במערכת היחסים</a></li>
+                                            <li><a href="#" class="notActive">הפרידה מהמשפחה והחברים</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html" target="_self"><span>אודות</span></a></li>
+                            <li><a href="contactUs.html" target="_self"><span>צור קשר</span></a></li>
+                            <li><a href="#" class="notActive"><span>שאלות נפוצות</span></a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+
+                <section title="זכויות יוצרים" id="credits_note">
+                    <h1>זכויות יוצרים</h1>
+                    <img src="images/index/heat_parts/blue_heart.png" />
+                    <ul>
+                        <li>
+                            עמוד סרטים שעושים קצת טוב על הלב:
+                            <ul>
+                                <li>
+                                    <b>קישורי טריילרים לסרטים מיוטיוב המוטמעים באתר:</b>
+                                    <ul>
+                                        <li><a href="https://www.youtube.com/watch?v=GSwA6QQW8P4">לשכוח את שרה מארשל</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=PsD0NpFSADM">500 ימים עם סאמר</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=uE7qjQlfoRs">10 דברים שאני שונאת בך</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=OqVgCfZX-yE">אנני</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=ljnEUL-fdt0">הפרידה</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=Z2lYA7L7PZY">ההצעה</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=BDi5zH18vxU">החופשה</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=LG0xYJJbko8">השטן לובשת פראדה</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=3_DHhPckJNo">הוא פשוט לא בקטע שלך</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=DvsZtGxsvV0&t=3s">האמת המכוערת</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://www.seret.co.il/">אתר סרט</a><br /></li>
+                            </ul>
+                        </li>
+                        <li>
+                            עמוד פרידה בעידן הדיגיטלי:<br />
+                            <ul>
+                                <li> <a href=" https://singles.walla.co.il/item/2859836">אתר וואלה סינגלס</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            עמוד איך להיפטר מהחפצים של האקס/ית:<br />
+                            <ul>
+                                <li><a href="https://singles.walla.co.il/item/2737630">אתר וואלה סינגלס</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            עמוד השגרה החדשה שלך:
+                            <ul>
+                                <li><a href="http://www.baba-mail.co.il/content.aspx?emailid=16788">אתר בא במייל</a></li>
+                                <li><a href="http://www.baba-mail.co.il/content.aspx?emailid=42139">אתר בא במייל</a></li>
+                                <li><a href="https://www.haaretz.co.il/labels/1.4034410">אתר עיתון ה"ארץ"</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            אייקונים ותמונות מאתר נלקחו מאתרים:
+                            <ul>
+                                <li><a href=" https://www.freepik.com/">freepik</a></li>
+                                <li><a href=" https://www.flaticon.com/">flaticon</a></li>
+                            </ul>
+                            <p>
+                                באתרים אלו לסטודנטית לירון בלום יש רישיון אשר מאפשר לה שימוש חופשי בכל תכני האתר בהתאם לזכויות היוצרים.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+
+
+                <footer>
+                    <nav class="nav_footer" aria-label="תפריט תחתון">
+                        <ul class="heb_footer">
+                            <li><a href="index.html" target="_self">חדרי הבית</a></li>
+                            <li><a href="about.html" target="_self">אודות</a></li>
+                            <li><a href="#" target="_self" class="notActive">שאלות נפוצות</a></li>
+                        </ul>
+                        <ul class="heb_footer">
+                            <li><a href="siteMap.html" target="_self">מפת האתר</a></li>
+                            <li><a href="contactUs.html" target="_self">צור קשר</a></li>
+                            <li><a href="credits.html" target="_self">זכויות יוצרים</a></li>
+                        </ul>
+                        <ul class="english_footer">
+                            <li><a href="index.html#index_healing_room" target="_self">Healing</a></li>
+                            <li><a href="index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a></li>
+                            <li><a href="index.html#index_unfollow_room" target="_self">UNFOLLOW</a></li>
+                            <li><a href="index.html#index_the_day_after" target="_self">The Day After</a></li>
+                        </ul>
+                    </nav>
+                </footer>
+
+
+            </div>
+        </article>
+        </div>
+
+</body>
+</html>

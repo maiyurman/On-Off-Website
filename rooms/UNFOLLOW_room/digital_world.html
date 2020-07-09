@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>On/Off- פרידה בעידן הדיגיטלי </title>
+    <meta name="description" content="עמוד תוכן הנותן טיפים לפרידה בעידן הדיגיטלי" />
+    <meta name="keywords" content="On/Off,לב שבור,עידן דיגיטלי,like,follow,פרידה,התמודדות,צעדים" />
+    <meta name="author" content="On/Off - Mai Yurman, Amit-Ben-Basat, Liron Blum" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="../../styles/reset.css" rel="stylesheet" />
+    <link href="../../styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script>
+        var accessibilityMode = true;
+        function big() {
+            var body = document.getElementsByTagName('body')[0];
+            if (accessibilityMode == true) {
+                body.style.zoom = "200%";
+                accessibilityMode = false;
+                document.getElementById("buttonAccessibility").value = "לחצו ל100%";
+            }
+            else {
+                body.style.zoom = "100%";
+                accessibilityMode = true;
+                document.getElementById("buttonAccessibility").value = "לחצו ל200%";
+            }
+        }
+    </script>
+    <link rel="icon" href="../../images/menu/on_off_icon.png" /> <!--favicon on/off-->
+</head>
+<body>
+    <div id="container">
+        <article>
+            <div role="main">
+                <header>
+                    <nav class="nav_header" aria-label="תפריט ראשי">
+                        <input type="button" onclick="big()" value="לחצו ל200%" id="buttonAccessibility" class="button200" />
+                        <ul>
+                            <li><a href="../../index.html" target="_self"><img src="../../images/menu/logo_on_off.png" class="logo_on_off" alt="logo" width="80" height="80" /></a></li>
+                            <li>
+                                <a href="../../index.html" target="_self"><span>חדרי הבית</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html#index_healing_room" target="_self">Healing</a>
+                                        <ul>
+                                            <li><a href="../../rooms/healing_room/movies.html" target="_self">סרטים שיעשו קצת טוב על הלב</a></li>
+                                            <li><a href="#" class="notActive">שירים להרגשה טובה</a></li>
+                                            <li><a href="#" class="notActive">מאכלים שיעשו קצת טוב לנפש</a></li>
+                                            <li><a href="#" class="notActive">משפטי העצמה</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a>
+                                        <ul>
+                                            <li><a href="../../rooms/me_myself_I_room/new_routin.html" target="_self">השגרה החדשה שלך</a></li>
+                                            <li><a href="#" class="notActive">איך משתפרים לפעם הבאה</a></li>
+                                            <li><a href="#" class="notActive">יתרונות וחסרונות בעצמי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html#index_unfollow_room" target="_self">UNFOLLOW</a>
+                                        <ul>
+                                            <li><a href="../../rooms/UNFOLLOW_room/digital_world.html" target="_self">פרידה בעידן הדיגיטלי</a></li>
+                                            <li><a href="../../rooms/UNFOLLOW_room/Social Networks_tips.html" target="_self">טיפוח הרשתות החברתיות שלי</a></li>
+                                            <li><a href="../../rooms/UNFOLLOW_room/emojipedia.html" target="_self">אמוג'יפדיה</a></li>
+                                            <li><a href="../../rooms/UNFOLLOW_room/EX-stuff.html" target="_self">מה לעשות עם החפצים של האקס/ית?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html#index_the_day_after" target="_self">The Day After</a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">איך לא לשקוע במחשבות על הפרידה</a></li>
+                                            <li><a href="#" class="notActive">איך משחררים את הזיכרונות</a></li>
+                                            <li><a href="../../rooms/the_day_after_room/Advantages and Disadvantages.html" target="_self">יתרונות וחסרונות במערכת היחסים</a></li>
+                                            <li><a href="#" class="notActive">הפרידה מהמשפחה והחברים</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="../../about.html" target="_self"><span>אודות</span></a></li>
+                            <li><a href="../../contactUs.html" target="_self"><span>צור קשר</span></a></li>
+                            <li><a href="#" class="notActive"><span>שאלות נפוצות</span></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav_bread_crumbs" aria-label="תפריט פירורי לחם">
+                        <ol>
+                            <li><a href="../../index.html" target="_self">  חדרי הבית  </a></li>
+                            <li><a href="../../index.html#index_unfollow_room" target="_self">  UNFOLLOW  </a></li>
+                            <li><a href="digital_world.html" target="_self">  פרידה בעידן הדיגיטלי  </a></li>
+                        </ol>
+                    </nav>
+                </header>
+                <section title="פרידה בעידן הדיגיטלי" id="digital_world_open">
+                    <div id="digital_world_open_green">
+                        <h1>
+                            מדריך לפרידה בעידן הדיגיטלי
+                        </h1>
+                        <h2>
+                            4 הצעדים להתנתקות מהירה מהאקס/ית
+                        </h2>
+                        <img src="../../images/digital_world/sad.png" alt="דמות חדר עצובה" height="200">
+                    </div>
+                    <p>
+                        בעבר, כאשר היינו עוברים פרידה דרמטית מבן או בת הזוג היינו יכולים לרדת למחתרת ולהעלם. היום, מספר דקות בודדות לאחר הפרידה גם דודה מרים של האקס מנהריה יודעת מי היה הראשון שעזב ואיתה גם כל הרשת.
+                        איך מנתקים את האהבה מהרשת אחרי שניתקנו אותה מהחיים?
+                    </p>
+                </section>
+
+                <section title="הצעד הראשון: תבטלי לי את זה בבקשה!" class="digital_world_steps">
+                    <div id="digital_world_instagram" aria-label="כניסה לפרופיל ממנו אנו רוצים להוריד עוקב, לחיצה על חץ ולאחר מכן על UNFOLLOW"></div>
+
+                    <h2>
+                        הצעד הראשון: תבטלו לי את זה בבקשה!
+                    </h2>
+                    <h3>
+                        ביטול החברות בפייסבוק והורדת העוקב באינסטגרם
+                    </h3>
+                    <p>
+                        כאשר אומרים להתנתק <b>אז באמת מתכוונים ללהתנתק.</b> הפייסבוק מוצף בתמונות, עדכונים ותיוגים של האקס ע״י חבריו. העלאת תמונות בלתי פוסקת של האקסית מהשנייה שנפרדתם שלא תשכח בטעות שהיא עסוקה בחייה המופלאים. התזכורות היומיומיות למה שהיה לא יתרמו לאף צד בעניין בעיקר בגלל שהנושא טעון  רגשית ומביא איתו גלים של תחושות וזכרונות. אז אנחנו אומרות <b>BIG NO NO</b>  עשו לעצמכם טובה ולכו לפי המדריך. 
+                    </p>
+                </section>
+
+                <section title="הצעד השני: אל תגזימי מאמי!" class="digital_world_steps">
+                    <img src="../../images/digital_world/screenshot_delete.png" alt="מחיקת תמונות" />
+                    <h2>
+                        הצעד השני: אל תגזימי מאמי!
+                    </h2>
+                    <h3>
+                        להימנע מהפגנת נוכחות מוגזמת ברשתות
+                    </h3>
+                    <p>
+                        בשלב זה לרובנו יש דחף להוכיח לעולם שהמשכנו כרגיל והחיים שלנו תותים. <b>אך</b> המשמעות היא שאנחנו עדיין מתעמקים במחשבות ובעיקר ברצון להוכיח לאקס/ית שעברנו הלאה. אנחנו נתרכז בכמות הלייקים <b>שכבר מזמן לא אמורה לעניין אותנו</b> ולכן:
+
+                        <ul>
+                            <li>
+                                הקפידו <b>למחוק</b> את האפליקציות מהטלפון ובמידת הצורך להיכנס דרך המחשב- דבר זה יפחית משמעותית את הכניסה שלנו לרשת החברתית ותתרום גם לגמילה מזמן מסך מיותר.
+                            </li>
+                            <li>
+                                <b> השהיית</b> הפרופילים שלנו ברשתות- זו הדרך היעילה ביותר להתנתק מהעולם ברשתות החברתיות. פאוזה קטנה מהעולם תוכל לגרום לנו להתעסק בדברים שבאמת מעניינים אותנו.
+
+                            </li>
+                        </ul>
+                    </p>
+                    <marquee></marquee>
+                </section>
+
+
+                <section title="הצעד השלישי: תחזיקו חזק" class="digital_world_steps">
+                    <div id="digital_world_whatsapp" aria-label="כניסה להגדרות הפרטיות ושינוי הגדרת נראה לאחרונה לאף אחד"> </div>
+                    <h2>
+                        הצעד השלישי: תחזיקו חזק
+                    </h2>
+                    <h3>
+                        ביטול עדכונים הווטסאפ, וי כחול, והנראה לאחרונה
+                    </h3>
+                    <p>
+                        אין דבר יותר כואב מלדעת שאדם קרא את ההודעה שנשלחה אליו ובתגובה לכך הוא בחר שלא לענות. אנחנו ממליצות להימנע מהכאב המביך והמיותר הזה אשר מעלה תהיות וכעסים מיותרים ובאופן ישיר מונע מאיתנו לחשוב כי אולי הנמען באמת עסוק ושכח לענות להודעה בשלב יותר מאוחר.
+                    </p>
+                    <marquee></marquee>
+                </section>
+
+                <section title="הצעד הרביעי: והכי חשוב" class="digital_world_steps">
+                    <img src="../../images/digital_world/screenshot_turnOff.png" alt="ביטול קליטה סלולרית" />
+                    <h2>
+                        הצעד הרביעי: והכי חשוב
+                    </h2>
+                    <h3>
+                        עופו על עצמכם, תמציאו את עצמכם מחדש!
+                    </h3>
+                    <p>
+                        התעסקות בדברים חדשים ומוחשיים ללא צורך בווי פי או טלפון יכולים לעשות טוב להרבה מכם. להיפגש לקפה עם חברים, לשבת במקום כיפי עם ספר או ללכת לטייל במקום שרציתם להיות בו הרבה זמן. הריכוז בדבר חדש בחיים שלנו כמו תחביב מסוים הקשור בפעילות יצירתית או גופנית, עשוי להסיח את דעתנו במעט ולגרום לנו להנות מהדברים הקטנים אשר לא גורמים לנו להיות תלויים במכשיר הקטן.
+                    </p>
+                    <marquee></marquee>
+                </section>
+
+                <section title="סגירת עמוד תוכן" id="digital_world_end">
+                    <p>עכשיו אחרי שלמדתם להתנתק הגיע הזמן לדאוג <a href="Social Networks_tips.html">לטיפוח הרשתות החברתיות שלי</a></p>
+                    <img src="../../images/digital_world/happy.png" id="happy" />
+                    <img src="../../images/digital_world/hearts_green.png" id="greenhearts" />
+                </section>
+
+
+                <footer>
+                    <nav class="nav_footer" aria-label="תפריט תחתון">
+                        <ul class="heb_footer">
+                            <li><a href="../../index.html" target="_self">חדרי הבית</a></li>
+                            <li><a href="../../about.html" target="_self">אודות</a></li>
+                            <li><a href="#" target="_self" class="notActive">שאלות נפוצות</a></li>
+                        </ul>
+                        <ul class="heb_footer">
+                            <li><a href="../../siteMap.html" target="_self" ">מפת האתר</a></li>
+                            <li><a href="../../contactUs.html" target="_self">צור קשר</a></li>
+                            <li><a href="../../credits.html" target="_self">זכויות יוצרים</a></li>
+                        </ul>
+                        <ul class="english_footer">
+                            <li><a href="../../index.html#index_healing_room" target="_self">Healing</a></li>
+                            <li><a href="../../index.html#index_me_myself_and_i_room" target="_self">Me, Myself & I</a></li>
+                            <li><a href="../../index.html#index_unfollow_room" target="_self">UNFOLLOW</a></li>
+                            <li><a href="../../index.html#index_the_day_after" target="_self">The Day After</a></li>
+                        </ul>
+                    </nav>
+                </footer>
+
+
+
+            </div>
+        </article>
+
+
+        </div>
+</body>
+</html>
